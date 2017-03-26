@@ -1,0 +1,74 @@
+ <web-app>
+	  <servlet>
+			<servlet-name>UserRegistrationServlet</servlet-name>
+			<servlet-class>userReg.app.UserRegistrationServlet</servlet-class>
+	  </servlet>
+	  <servlet-mapping>
+			<servlet-name>UserRegistrationServlet</servlet-name>
+			<url-pattern>/user-registration</url-pattern>
+	  </servlet-mapping>
+	  
+	  <servlet>
+			<servlet-name>UserLoginServlet</servlet-name>
+			<servlet-class>userReg.app.UserLoginServlet</servlet-class>
+	  </servlet>
+	  <servlet-mapping>
+			<servlet-name>UserLoginServlet</servlet-name>
+			<url-pattern>/user-login</url-pattern>
+	  </servlet-mapping>
+	  
+	  <servlet>
+			<servlet-name>UserLogoutServlet</servlet-name>
+			<servlet-class>userReg.app.UserLogoutServlet</servlet-class>
+	  </servlet>
+	  <servlet-mapping>
+			<servlet-name>UserLogoutServlet</servlet-name>
+			<url-pattern>/user-logout</url-pattern>
+	  </servlet-mapping>
+	  
+	  
+	  <servlet>
+			<servlet-name>UserHomeServlet</servlet-name>
+			<servlet-class>userReg.app.UserHomeServlet</servlet-class>
+	  </servlet>
+	  <servlet-mapping>
+			<servlet-name>UserHomeServlet</servlet-name>
+			<url-pattern>/user-home</url-pattern>
+	  </servlet-mapping>
+	  
+	  <servlet>
+			<servlet-name>AdminHomeServlet</servlet-name>
+			<servlet-class>userReg.app.AdminHomeServlet</servlet-class>
+	  </servlet>
+	  <servlet-mapping>
+			<servlet-name>AdminHomeServlet</servlet-name>
+			<url-pattern>/admin-home</url-pattern>
+	  </servlet-mapping>
+	  
+	  <servlet>
+			<servlet-name>UserProfileServlet</servlet-name>
+			<servlet-class>userReg.app.UserProfileServlet</servlet-class>
+	  </servlet>
+	  <servlet-mapping>
+			<servlet-name>UserProfileServlet</servlet-name>
+			<url-pattern>/user-profile</url-pattern>
+	  </servlet-mapping>
+	  
+	  <servlet>
+			<servlet-name>UserChangePasswordServlet</servlet-name>
+			<servlet-class>userReg.app.UserChangePasswordServlet</servlet-class>
+	  </servlet>
+	  <servlet-mapping>
+			<servlet-name>UserChangePasswordServlet</servlet-name>
+			<url-pattern>/user-change-password</url-pattern>
+	  </servlet-mapping>
+	  
+	  <servlet>
+			<servlet-name>UserListServlet</servlet-name>
+			<servlet-class>userReg.app.UserListServlet</servlet-class>
+	  </servlet>
+	  <servlet-mapping>
+			<servlet-name>UserListServlet</servlet-name>
+			<url-pattern>/user-list</url-pattern>
+	  </servlet-mapping>
+   </web-app>
