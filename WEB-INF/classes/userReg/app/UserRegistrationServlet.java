@@ -30,6 +30,7 @@ public class UserRegistrationServlet extends HttpServlet{
 				  resp.addCookie(c);
 			  }
 		  }
+		  
 		  PrintWriter out = resp.getWriter();
 		  out.println("<html>");
 		  out.println("<body>");
